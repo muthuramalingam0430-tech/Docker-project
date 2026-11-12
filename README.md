@@ -8,7 +8,7 @@ A simple project that runs a web app and a PostgreSQL database together using Do
 
 ![Animated Docker Compose flow chart](flowchart.svg)
 
-> Keep `flowchart.svg` in the same folder as this README. If your viewer does not play SVG animation, use the static diagram below.
+
 
 ```mermaid
 flowchart LR
