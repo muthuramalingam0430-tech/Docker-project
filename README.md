@@ -10,14 +10,6 @@ A simple project that runs a web app and a PostgreSQL database together using Do
 
 
 
-```mermaid
-flowchart LR
-    A[PuTTY SSH] --> B[Ubuntu server]
-    B -->|docker compose up| C[(db container<br/>PostgreSQL 16)]
-    C -->|healthy| D[app container]
-    D -->|port 3000| E[Browser]
-    C --- V[(db_data volume)]
-```
 
 ## Project structure
 
